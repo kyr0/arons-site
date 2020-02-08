@@ -347,6 +347,10 @@ export default (cmp: HomepageComponent) => <fragment>
           <a class="carousel-item" href="https://www.toyotafinancial.com" target="_blank" rel="noreferrer"><img alt="Toyota Financial" src={require('../assets/images/customer_logos/toyota_financial_logo.jpeg')} /></a>
         </div>
 
+        <p class="light">
+          Swipe left and right.
+        </p>
+
       </div>
     </div>
   </div>

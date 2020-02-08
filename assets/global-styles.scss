@@ -18,6 +18,12 @@
   padding-bottom: 30px;
  }
 
+ 
+ .carousel .carousel-item > img {
+   height: 25px;
+   width: initial;
+ }
+ 
  .validity-error-message {
    color: #cc0000;
  }

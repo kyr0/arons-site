@@ -69,23 +69,16 @@ export class HomepageComponent extends st.component implements ILifecycle {
 
   onAfterInitialRender() {
 
-
-
     // see https://materializecss.com/sidenav.html JavaScript API etc.
-    M.Sidenav.init(document.querySelectorAll('.sidenav'), {});
     M.Parallax.init(document.querySelectorAll('.parallax'), {});
+
 
     const carousel = M.Carousel.init(document.querySelectorAll('.carousel'), {
       numVisible: 5,
       padding: 100,
       shift: 10,
-      dist: -50
+      dist: -30
     })[0];
-
-    // animated customer logo loop
-    setInterval(() => {
-      carousel.next();
-    }, 1000);
 
     this.thankYouMessageModal = M.Modal.init(document.querySelectorAll('#thank-you-for-your-message'), {})[0];
   }
