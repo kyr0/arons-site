@@ -1226,12 +1226,11 @@ export default (cmp: HomepageComponent) => <fragment>
   </div>
 </footer>
 
-
   <div id="thank-you-for-your-message" class="modal">
     <div class="modal-content">
       <h4>Thank you</h4>
       <p>Your message has been delivered to my email account.</p>
-      <p>I'll get back to soon as soon as possible.</p>
+      <p>I'll get back to you as soon as possible.</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>

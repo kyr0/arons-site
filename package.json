@@ -6,7 +6,7 @@
     "clean": "st-run st-rm-rf dist",
     "predeploy": "st-run st-rm-rf dist",
     "deploy": "yarn start:prod",
-    "postdeploy": "firebase deploy",
+    "postdeploy": "st-run st-cp robots.txt dist ++ st-cp assets/images/favicon.png dist/static/assets ++ system:firebase deploy",
     "start:prod": "cross-env NODE_ENV=production st-start",
     "start": "cross-env NODE_ENV=development st-start"
   },
