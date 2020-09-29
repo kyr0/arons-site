@@ -7,7 +7,7 @@ export default (cmp: HomepageComponent) => <fragment>
   <div class="section no-pad-bot">
     <div class="container" style="padding-top: 80px">
 
-      <h1 class="header center white-text"><img class="round-corner-picture" alt="Background" src={require('../assets/images/aron_profil.jpg')} /></h1>
+      <h1 class="header center white-text"><img class="round-corner-picture" alt="Background" src={require('../assets/images/aron_quad.jpg')} /></h1>
 
       <h4 class="header center white-text name light">Hi, my name is Aron</h4>
 
@@ -168,7 +168,7 @@ export default (cmp: HomepageComponent) => <fragment>
         <div class="card hoverable">
           <div class="card-image">
             <img alt="Background" src={require('../assets/images/author-green-chameleon-s9CC2SKySJM-unsplash.jpg')} />
-            <span class="card-title">Author</span>
+            <span class="card-title">Writing</span>
           </div>
           <div class="card-content light">
 

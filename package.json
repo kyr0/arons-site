@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "MaterializeDemo: Based on the SpringType scratch scaffolding project",
   "scripts": {
-    "clean": "st-run st-rm-rf dist",
-    "predeploy": "st-run st-rm-rf dist",
+    "clean": "rm -rf dist",
+    "predeploy": "rm -rf dist",
     "deploy": "yarn start:prod",
-    "postdeploy": "st-run st-cp robots.txt dist ++ st-cp assets/images/favicon.png dist/static/assets ++ system:firebase deploy",
+    "postdeploy": "npx st-cp robots.txt dist && npx st-cp assets/images/favicon.png dist/static/assets && firebase deploy",
     "start:prod": "cross-env NODE_ENV=production st-start",
     "start": "cross-env NODE_ENV=development st-start"
   },
